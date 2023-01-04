@@ -30,9 +30,6 @@ ASI IGUAL DE FACEBOOK,INSTAGRAM,TELEGRAM Y LA CAMARA
 ■ Camera
 ■ com.whatsapp
 
-Tutorial de como usarlo
-https://youtu.be/QCqkLSchQlc
-
 Créditos a @svpirate503
 
 Configurar esa última última iniciar.sh si la victima usa
