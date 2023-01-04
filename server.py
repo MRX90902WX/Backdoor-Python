@@ -5,10 +5,11 @@ c = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 c.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)
 c.bind(("localhost",4444))
 c.listen(1)
-print("[+]Esperando por conexiones..")
+print("[+]Esperando conexión...")
 
-con,ad = c.accept()
-
+con,adr = c.accept()
+print("[*]Conexión de {}".format(adr))
+print("")
 
 def send_data(data):
 	data_j = json.dumps(data)
