@@ -32,7 +32,7 @@ ASI IGUAL DE FACEBOOK,INSTAGRAM,TELEGRAM Y LA CAMARA
 
 Créditos a @svpirate503
 
-Configurar esa última última iniciar.sh si la victima usa
+Configurar esa última iniciar.sh si la victima usa
 WhatsApp bussines 
 
 #Bye.
